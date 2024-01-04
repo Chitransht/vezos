@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SubIntro1 = () => {
   return (
@@ -10,9 +11,11 @@ const SubIntro1 = () => {
           </h1>
         </div>
         <div className="flex justify-center py-4">
-          <button className="border border-black px-9 py-5 rounded-r-full rounded-l-full cursor-pointer hover:bg-purple-700 hover:text-white">
-            Services
-          </button>
+          <Link to="/service">
+            <button className="border border-black px-9 py-5 rounded-r-full rounded-l-full cursor-pointer hover:bg-purple-700 hover:text-white">
+              Services
+            </button>
+          </Link>
         </div>
       </div>
     </div>

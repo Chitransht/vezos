@@ -4,6 +4,7 @@ import SubIntro from "./SubIntro";
 import MainIntro from "./MainIntro";
 import SubIntro1 from "./SubIntro1";
 import Teams from "../teams/Teams";
+import Footer from "../footer/Footer";
 
 const Intro = () => {
   return (
@@ -13,6 +14,7 @@ const Intro = () => {
       <SubIntro />
       <SubIntro1 />
       <Teams />
+      <Footer />
     </>
   );
 };
