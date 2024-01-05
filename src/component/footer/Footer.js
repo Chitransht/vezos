@@ -27,11 +27,19 @@ const Footer = () => {
           <Link to="/vezosWeb">
             <p className="py-2 cursor-pointer">Web Development</p>
           </Link>
-          <p className="py-2 cursor-pointer">Social Media account Management</p>
-          <p className="py-2 cursor-pointer">
-            Photos & Videos editting / Graphic Designs
-          </p>
-          <p className="py-2 cursor-pointer">Digital Marketing</p>
+          <Link to="/vezosmedia">
+            <p className="py-2 cursor-pointer">
+              Social Media account Management
+            </p>
+          </Link>
+          <Link to="/vezosedit">
+            <p className="py-2 cursor-pointer">
+              Photos & Videos editting / Graphic Designs
+            </p>
+          </Link>
+          <Link to="/vezosemarket">
+            <p className="py-2 cursor-pointer">Digital Marketing</p>
+          </Link>
         </div>
         <div className=" h-full w-72 p-5">
           <h1 className="font-bold py-4 text-2xl">Our Media Accounts</h1>
